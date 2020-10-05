@@ -15,3 +15,14 @@ function Max(a,b)
 let resultMax=Max(30,15);
 console.log('le maximum est'+resultMax);
 
+//fonctionreduc
+let num[2,14];
+function reduce(numbers,fn)
+|{
+    let result=numbers[0];
+    for(let i=1;i<numbers.length;i++)
+    {
+        result=fn(result,numbers[i]);
+    }
+    return result;
+}
